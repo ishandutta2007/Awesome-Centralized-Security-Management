@@ -1,49 +1,45 @@
-# Awesome-Centralized-Security-Management
-# Awesome-Centralized-Security-Management
+<p align="center">
+  <img src="assets/banner.svg" alt="Awesome Centralized Security Management Banner" width="100%">
+</p>
 
-# Awesome-Centralized-Security-Management
+# 🛡️ Awesome Centralized Security Management
 
-## Top Centralized Security Management Ecosystem
+<p align="center">
+  <a href="https://github.com/ishandutta2007/eAwesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
+  <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Centralized-Security-Management/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Centralized-Security-Management?style=social&color=white" alt="Stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Centralized-Security-Management/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Centralized-Security-Management?style=social&color=white" alt="Forks" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Centralized-Security-Management/issues"><img src="https://img.shields.io/github/issues/ishandutta2007/Awesome-Centralized-Security-Management?color=green" alt="Issues" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Centralized-Security-Management/blob/main/LICENSE"><img src="https://img.shields.io/github/license/ishandutta2007/Awesome-Centralized-Security-Management?color=blue" alt="License" /></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
+<p align="center">
+  <strong>A production-ready curated directory of SaaS platforms, enterprise SIEM, XDR, SOAR, CSPM tools, and open-source cybersecurity frameworks for unified Security Operations Centers (SOC).</strong>
+</p>
 
+---
 
-**Curated List of SaaS Products & Open-Source GitHub Projects**  
+## 📑 Table of Contents
 
-*Focused on SIEM, XDR, CSPM & Security Operations*  
+- [🌐 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
+- [🏢 SaaS/Hosted Platforms](#-saashosted-platforms)
+- [🔓 Open-Source GitHub Projects](#-open-source-github-projects)
+- [⚙️ Recommended Architectures](#️-recommended-architectures)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [💖 Support](#-support)
+- [⭐ Star History](#-star-history)
+- [⚖️ Disclaimer](#️-disclaimer)
 
-**Last updated: March 2026**
+---
 
-
-
-This repository tracks notable **SaaS platforms** and **open-source projects** for **Centralized Security Management**. These tools aggregate, correlate, and analyze security telemetry from endpoints, networks, cloud workloads, and identities to detect threats, manage vulnerabilities, and automate incident response.
-
-
-
-**Examples** include Salesforce Security Center, Microsoft Defender XDR, Palo Alto Cortex XSIAM, Splunk Cloud, SentinelOne Singularity, CrowdStrike Falcon, Datadog Cloud Security, Wiz, Orca Security, and IBM Security QRadar (the category leaders).
-
-
-
-**Open-source emphasis**: This section is heavily expanded with every major active project for self-hosting, custom detection engineering, and open security data pipelines — ideal for SOC teams, security researchers, and organizations building transparent, vendor-independent security operations.
-
-
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
-## Table of Contents
-
-- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
-- [SaaS/Hosted Platforms](#saas-hosted-platforms)
-- [Open-Source GitHub Projects](#open-source-github-projects)
-- [How to Contribute](#how-to-contribute)
-- [Disclaimer](#disclaimer)
-
-## Sector Overview & Market Dynamics
+## 🌐 Sector Overview & Market Dynamics
 
 The global centralized security management and SIEM/SecOps market is estimated at approximately **$16.3 billion** in 2026, growing at a ~10.2% CAGR as organizations converge SIEM, XDR, and cloud posture management. The sector displays **moderate fragmentation transitioning toward platform concentration**, where enterprise hyperscalers and top platform vendors dominate unified telemetry ingestion while agile, specialized vendors compete heavily in cloud-native detection and posture niches.
 
-## SaaS/Hosted Platforms
+---
+
+## 🏢 SaaS/Hosted Platforms
 
 | Product | Description | Market Cap / Valuation | Starting Pricing | Free Tier / Free Trial Limits |
 | :--- | :--- | :--- | :--- | :--- |
@@ -57,154 +53,165 @@ The global centralized security management and SIEM/SecOps market is estimated a
 | **[SentinelOne Singularity](https://www.sentinelone.com/)** | Autonomous AI-powered endpoint protection and XDR platform with real-time threat detection and automated response. | ~$9.10 Billion (Market Cap) | $69.99/endpoint/year (~$5.83/endpoint/month, Singularity Core tier; billed annually) | 30-day proof-of-concept evaluation trial (arranged via authorized partner/sales; includes full EPP/EDR features & 30-day data retention) |
 | **[Orca Security](https://orca.security/)** | Agentless cloud security platform with unified visibility across cloud estates and prioritized risk remediation. | ~$1.80 Billion (Valuation) | $7,000/month (~$84,000/year starter pack on AWS Marketplace for up to 500 cloud assets) | 30-day free trial (via AWS Marketplace Risk Assessment; full agentless SideScanning across cloud accounts) |
 
+---
 
+## 🔓 Open-Source GitHub Projects
 
-## Open-Source GitHub Projects
+Curated list of self-hostable SIEM, XDR, SOAR, CSPM, and security automation repositories, sorted by GitHub star counts in descending order:
 
+- **[n8n](https://github.com/n8n-io/n8n)** [![GitHub stars](https://img.shields.io/github/stars/n8n-io/n8n?style=social&color=white)](https://github.com/n8n-io/n8n/stargazers)  
+  Fair-code workflow automation tool with 400+ native nodes including security integrations (SIEM alert ingestion, threat lookup, Slack/PagerDuty escalations) widely adopted for self-hosted SOAR orchestration.
 
+- **[Trivy](https://github.com/aquasecurity/trivy)** [![GitHub stars](https://img.shields.io/github/stars/aquasecurity/trivy?style=social&color=white)](https://github.com/aquasecurity/trivy/stargazers)  
+  Comprehensive and versatile security scanner for containers, Kubernetes, code repositories, cloud infrastructure (CSPM), and SBOM generation.
 
-- **[Wazuh](https://github.com/wazuh/wazuh)**  
+- **[osquery](https://github.com/osquery/osquery)** [![GitHub stars](https://img.shields.io/github/stars/osquery/osquery?style=social&color=white)](https://github.com/osquery/osquery/stargazers)  
+  SQL-powered operating system instrumentation, monitoring, and analytics framework exposing low-level OS telemetry as relational database tables for endpoint visibility and threat hunting.
 
-  The leading open-source XDR/SIEM platform (GPL-2.0). Provides host-based intrusion detection, file integrity monitoring, vulnerability detection, and security configuration assessment. Integrates with ELK Stack, MISP, and TheHive for a complete open SOC stack. 600+ stars on related rule repositories .
+- **[Wazuh](https://github.com/wazuh/wazuh)** [![GitHub stars](https://img.shields.io/github/stars/wazuh/wazuh?style=social&color=white)](https://github.com/wazuh/wazuh/stargazers)  
+  The leading open-source XDR & SIEM platform (GPL-2.0). Provides unified endpoint protection, log analysis, file integrity monitoring (FIM), vulnerability assessment, and automated incident response across multi-cloud and on-premise environments.
 
+- **[Prowler](https://github.com/prowler-cloud/prowler)** [![GitHub stars](https://img.shields.io/github/stars/prowler-cloud/prowler?style=social&color=white)](https://github.com/prowler-cloud/prowler/stargazers)  
+  Open-source Cloud Security Posture Management (CSPM) and incident response tool supporting AWS, Azure, Google Cloud, and Kubernetes against CIS, NIST, ISO27001, and SOC2 benchmarks.
 
+- **[OpenSearch](https://github.com/opensearch-project/OpenSearch)** [![GitHub stars](https://img.shields.io/github/stars/opensearch-project/OpenSearch)](https://github.com/opensearch-project/OpenSearch/stargazers)  
+  Community-driven, open-source search and analytics suite (Apache-2.0) led by AWS. Serves as the core data engine for scalable log indexing, security analytics, anomaly detection, and interactive SOC dashboards.
 
-- **[OpenSearch](https://github.com/opensearch-project/OpenSearch)**  
+- **[Sigma](https://github.com/SigmaHQ/sigma)** [![GitHub stars](https://img.shields.io/github/stars/SigmaHQ/sigma?style=social&color=white)](https://github.com/SigmaHQ/sigma/stargazers)  
+  Generic signature format for SIEM systems. Allows security engineers and detection analysts to write vendor-agnostic detection rules that translate directly into Splunk, OpenSearch, Microsoft Sentinel, and QRadar queries.
 
-  Open-source fork of Elasticsearch and Kibana (Apache-2.0) led by AWS. Provides log storage, search, and visualization for SIEM use cases. Can be paired with Suricata, Zeek, and Wazuh for detection .
+- **[OpenCTI](https://github.com/OpenCTI-Platform/opencti)** [![GitHub stars](https://img.shields.io/github/stars/OpenCTI-Platform/opencti?style=social&color=white)](https://github.com/OpenCTI-Platform/opencti/stargazers)  
+  Unified open-source Cyber Threat Intelligence (CTI) platform built on GraphQL and Elasticsearch, facilitating structured ingestion, modeling, and automated sharing of technical, operational, and strategic cyber threat telemetry.
 
+- **[Zeek](https://github.com/zeek/zeek)** [![GitHub stars](https://img.shields.io/github/stars/zeek/zeek?style=social&color=white)](https://github.com/zeek/zeek/stargazers)  
+  Powerful, passive network analysis framework (BSD license) translating raw wire traffic into compact, structured behavioral logs, application-layer transactions, and network forensics metadata.
 
+- **[Fleet](https://github.com/fleetdm/fleet)** [![GitHub stars](https://img.shields.io/github/stars/fleetdm/fleet?style=social&color=white)](https://github.com/fleetdm/fleet/stargazers)  
+  Open-source fleet management platform and osquery manager for laptops, servers, and cloud workloads, providing centralized vulnerability scanning and real-time live telemetry querying.
 
-- **[Suricata](https://github.com/OISF/suricata)**  
+- **[Suricata](https://github.com/OISF/suricata)** [![GitHub stars](https://img.shields.io/github/stars/OISF/suricata?style=social&color=white)](https://github.com/OISF/suricata/stargazers)  
+  High-performance Network IDS/IPS and network security monitoring engine (GPL-2.0) with multi-threaded deep packet inspection, file extraction, Lua scripting, and native EVE JSON logging.
 
-  High-performance network IDS/IPS and network security monitoring engine (GPL-2.0). Deep packet inspection with protocol-aware detection, file extraction, and Lua scripting for custom rules .
+- **[MISP](https://github.com/MISP/MISP)** [![GitHub stars](https://img.shields.io/github/stars/MISP/MISP?style=social&color=white)](https://github.com/MISP/MISP/stargazers)  
+  Malware Information Sharing Platform (AGPL-3.0) for collecting, storing, correlating, and federating Indicators of Compromise (IOCs), threat actors, and security incident indicators across collaborative SOC networks.
 
+- **[StackStorm](https://github.com/StackStorm/st2)** [![GitHub stars](https://img.shields.io/github/stars/StackStorm/st2?style=social&color=white)](https://github.com/StackStorm/st2/stargazers)  
+  Event-driven automation platform (Apache-2.0) powering SOAR workflows. Connects disparate security sensors, triggers automated playbooks, and orchestrates containment actions across firewalls and identity providers.
 
+- **[IntelOwl](https://github.com/intelowlproject/IntelOwl)** [![GitHub stars](https://img.shields.io/github/stars/intelowlproject/IntelOwl?style=social&color=white)](https://github.com/intelowlproject/IntelOwl/stargazers)  
+  Open-source threat intelligence orchestration engine integrating 100+ analyzers (VirusTotal, AbuseIPDB, Shodan, YARA) via an automated REST API and GUI for rapid triage in modern SOCs.
 
-- **[Zeek](https://github.com/zeek/zeek)**  
+- **[TheHive / Cortex](https://github.com/TheHive-Project/TheHive)** [![GitHub stars](https://img.shields.io/github/stars/TheHive-Project/TheHive?style=social&color=white)](https://github.com/TheHive-Project/TheHive/stargazers)  
+  Scalable Security Incident Response Platform (SIRP) featuring case management, dynamic task assignment, observable enrichment via Cortex analyzers, and seamless integration with MISP.
 
-  Powerful network analysis framework (BSD license) that produces structured logs for security monitoring. Extracts metadata from network traffic without blocking, ideal for threat hunting and forensics .
+- **[Tracecat](https://github.com/TracecatHQ/tracecat)** [![GitHub stars](https://img.shields.io/github/stars/TracecatHQ/tracecat?style=social&color=white)](https://github.com/TracecatHQ/tracecat/stargazers)  
+  Open-source AI-native SOAR engine positioned as an open alternative to Tines and Splunk SOAR, featuring dual no-code/YAML workflow design, Temporal-backed execution, and webhook-driven security automation.
 
+- **[Snort 3](https://github.com/snort3/snort3)** [![GitHub stars](https://img.shields.io/github/stars/snort3/snort3?style=social&color=white)](https://github.com/snort3/snort3/stargazers)  
+  The next-generation Snort network intrusion detection and prevention system (GPL-2.0), featuring a multi-threaded architecture, flexible Lua configuration, and deep packet inspection.
 
+- **[Shuffle](https://github.com/Shuffle/Shuffle)** [![GitHub stars](https://img.shields.io/github/stars/Shuffle/Shuffle?style=social&color=white)](https://github.com/Shuffle/Shuffle/stargazers)  
+  General-purpose open-source SOAR platform enabling OpenAPI-based workflow automation, app generation, and bidirectional integration with Wazuh, TheHive, and OpenCTI.
 
-- **[MISP](https://github.com/MISP/MISP)**  
+- **[PatrowlManager](https://github.com/Patrowl/PatrowlManager)** [![GitHub stars](https://img.shields.io/github/stars/Patrowl/PatrowlManager?style=social&color=white)](https://github.com/Patrowl/PatrowlManager/stargazers)  
+  Open-source orchestrator for continuous vulnerability assessment, attack surface management (ASM), and automated penetration testing telemetry.
 
-  Malware Information Sharing Platform (AGPL) for threat intelligence sharing. Collects, stores, distributes, and correlates IOCs. Extensive ecosystem including PyMISP, misp-dashboard, and MISP-Grafana for real-time threat intel visualization .
+- **[UTMStack](https://github.com/utmstack/UTMStack)** [![GitHub stars](https://img.shields.io/github/stars/utmstack/UTMStack?style=social&color=white)](https://github.com/utmstack/UTMStack/stargazers)  
+  All-in-one open-source Next-Gen SIEM & compliance platform integrating log management, vulnerability assessment, threat intelligence, and compliance mapping.
 
+- **[Greenbone Vulnerability Management (gvmd)](https://github.com/greenbone/gvmd)** [![GitHub stars](https://img.shields.io/github/stars/greenbone/gvmd?style=social&color=white)](https://github.com/greenbone/gvmd/stargazers)  
+  The central management daemon for the Greenbone Community Edition (formerly OpenVAS), coordinating network vulnerability scanning, reporting, and remediation feeds.
 
+- **[CloudRec](https://github.com/antgroup/CloudRec)** [![GitHub stars](https://img.shields.io/github/stars/antgroup/CloudRec?style=social&color=white)](https://github.com/antgroup/CloudRec/stargazers)  
+  Multi-cloud CSPM governance platform by Ant Group featuring automated cloud asset discovery across 30+ services and Open Policy Agent (OPA) rule evaluation.
 
-- **[TheHive / Cortex](https://github.com/TheHive-Project/TheHive)**  
+- **[OSSIEM by SOCFortress](https://github.com/socfortress/OSSIEM)** [![GitHub stars](https://img.shields.io/github/stars/socfortress/OSSIEM?style=social&color=white)](https://github.com/socfortress/OSSIEM/stargazers)  
+  Pre-configured open-source SIEM stack combining Wazuh, Grafana dashboards, Graylog, and threat intelligence feeds for rapid deployment.
 
-  TheHive (AGPL-3.0 for v4 and earlier) is a scalable incident response platform with case management, task assignment, and observables. Cortex (AGPL-3.0) analyzes observables at scale via a REST API. Together they form a SOC incident response backbone . Note: TheHive 5+ requires a StrangeBee license.
+- **[OWASP OpenShield](https://github.com/OWASP/openshield)** [![GitHub stars](https://img.shields.io/github/stars/OWASP/openshield?style=social&color=white)](https://github.com/OWASP/openshield/stargazers)  
+  Open-source CSPM framework for Microsoft Azure environments, scanning for security misconfigurations and quantum-unsafe cryptographic algorithms against CIS and NIST standards.
 
+- **[AEGIS](https://github.com/alejadxr/AEGIS)** [![GitHub stars](https://img.shields.io/github/stars/alejadxr/AEGIS?style=social&color=white)](https://github.com/alejadxr/AEGIS/stargazers)  
+  Autonomous cybersecurity detection and response platform with sub-300ms pipelines, honeypot deception modules, Sigma rule correlation, and automated IP quarantine.
 
+- **[Warden](https://github.com/Spellskite-coding/Warden)** [![GitHub stars](https://img.shields.io/github/stars/Spellskite-coding/Warden?style=social&color=white)](https://github.com/Spellskite-coding/Warden/stargazers)  
+  Open-source EDR for Linux workstations written in Rust, leveraging fanotify filesystem monitoring, YARA rule scans, and real-time ransomware behavioral blocking.
 
-- **[StackStorm](https://github.com/StackStorm/st2)**  
+- **[Radegast EDR](https://github.com/radegast-edr/radegast-console-backend)** [![GitHub stars](https://img.shields.io/github/stars/radegast-edr/radegast-console-backend?style=social&color=white)](https://github.com/radegast-edr/radegast-console-backend/stargazers)  
+  Privacy-preserving endpoint detection and response platform featuring encrypted telemetry, SQLite backends, and lightweight eBPF sensors.
 
-  Event-driven automation platform (Apache-2.0) for SOAR workflows. Connects security tools and automates response actions. Integrates with Wazuh, Jira, and Slack for alert triage and remediation .
-
-
-
-- **[Tracecat](https://github.com/TracecatHQ/tracecat)**  
-
-  Open-source SOAR platform (AGPL-3.0) positioned as a self-hosted Tines/Splunk SOAR alternative. No-code and YAML dual-authoring, Temporal-based workflow engine, 100+ integrations, SSO, and audit logs in the free tier .
-
-
-
-- **[CloudRec](https://github.com/antgroup/CloudRec)**  
-
-  Multi-cloud CSPM platform (Apache-2.0) by Ant Group. Asset discovery across 30+ cloud services, OPA-based rule engine, and risk detection for network, identity, data, and logging misconfigurations .
-
-
-
-- **[OWASP OpenShield](https://github.com/OWASP/openshield)**  
-
-  Open-source CSPM for Azure (AGPL-3.0). Scans for misconfigurations and quantum-unsafe cryptography, maps findings to CIS/NIST/ISO27001/SOC2, and provides one-command remediation playbooks .
-
-
-
-- **[IntelOwl](https://github.com/intelowlproject/IntelOwl)**  
-
-  Threat intelligence management at scale (AGPL-3.0). Integrates 100+ analyzers (VirusTotal, AbuseIPDB, Yara, Shodan, MISP) and connectors to MISP/OpenCTI. Provides REST API, GUI, and Python/Go client libraries for SOC integration .
-
-
-
-- **[Radegast EDR](https://github.com/radegast-edr/radegast-backend)**  
-
-  Privacy-focused endpoint detection and response platform with end-to-end encryption (age). SQLite-backed, self-contained deployment. Includes eBPF sensor (Rustinel) for Linux and Windows agents .
-
-
-
-- **[Warden](https://github.com/Spellskite-coding/Warden)**  
-
-  Open-source EDR for Linux workstations written in Rust. Fanotify-based filesystem monitoring, YARA rule scanning, ransomware detection, quarantine management, and GTK4 GUI dashboard. Hardened through adversarial testing .
-
-
-
-- **[AEGIS](https://github.com/alejadxr/AEGIS)**  
-
-  Open-source autonomous cybersecurity platform with 11/11 detection score. Sub-300ms pipeline, honeypot deception, Sigma correlation engine (163 rules), auto-blocking, and Rust endpoint agent. Built to replace Wazuh for autonomous response .
-
-
-
-### Additional Strong Open-Source Options
-
-
-
-- **[OSSIEM by SOCFortress](https://github.com/socfortress/OSSIEM)** — Open Source SIEM Stack combining Wazuh, Grafana, and threat intelligence .
-
-- **[UTMStack](https://github.com/utmstack/UTMStack)** — Customizable SIEM and XDR powered by real-time correlation and threat intelligence .
-
-- **[OpenSIEM Framework](https://ieeexplore.ieee.org/document/11113996)** — Academic fusion of Wazuh, TheHive, Shuffle, Elasticsearch, MISP, and OpenCTI. Processes 10,000+ logs/sec, reduces false positives by 40% .
-
-- **[Catalyst](https://github.com/mshehata-dev/catalyst)** — Open-source SOAR/incident response platform with ticket management, tasks, reactions (automation), and timelines .
-
-- **[n8n](https://github.com/n8n-io/n8n)** — Workflow automation with security tool nodes for SOAR-like orchestration .
-
-- **[Greenbone GVM](https://github.com/greenbone/gvmd)** — Open-source vulnerability management (OpenVAS) with scanning, reporting, and remediation tracking .
-
-- **[PatrowlManager](https://github.com/Patrowl/PatrowlManager)** — Open-source security operations orchestration for vulnerability assessment and pentest automation .
-
-
-
-**Frameworks for building custom systems**: Combine **Wazuh** for endpoint detection with **Suricata + Zeek** for network telemetry, **OpenSearch** for log storage and visualization, **MISP** for threat intelligence, **TheHive/Cortex** for incident response, and **StackStorm** or **Tracecat** for SOAR automation — creating a fully self-hosted enterprise-grade security operations stack.
-
-
-
-## How to Contribute
-
-
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- Security telemetry and threat intelligence must comply with privacy and data protection regulations (GDPR, CCPA, etc.).
-
-- Self-hosted open-source solutions require proper security hardening, network isolation, and ongoing maintenance.
-
-
+- **[Catalyst](https://github.com/mshehata-dev/catalyst)** [![GitHub stars](https://img.shields.io/github/stars/mshehata-dev/catalyst?style=social&color=white)](https://github.com/mshehata-dev/catalyst/stargazers)  
+  Lightweight open-source incident response and ticket coordination platform with automated reactions and timelines.
 
 ---
 
+## ⚙️ Recommended Architectures
 
+To build an end-to-end, fully open-source SOC and centralized security ecosystem:
 
-**Made for SOC teams, security engineers, threat hunters, and developers building transparent security operations.**  
+```text
+       ┌────────────────────────┐         ┌────────────────────────┐
+       │   Endpoints & Hosts    │         │     Network & Cloud    │
+       │   Wazuh • osquery      │         │   Suricata • Zeek      │
+       │   Fleet • Trivy        │         │   Prowler • CloudRec   │
+       └───────────┬────────────┘         └───────────┬────────────┘
+                   │                                  │
+                   └─────────────────┬────────────────┘
+                                     ▼
+                       ┌───────────────────────────┐
+                       │   Data Ingestion & SIEM   │
+                       │   OpenSearch • Sigma      │
+                       │   OSSIEM • UTMStack       │
+                       └─────────────┬─────────────┘
+                                     │
+                                     ▼
+                       ┌───────────────────────────┐
+                       │ Threat Intel & Analytics  │
+                       │ MISP • OpenCTI • IntelOwl │
+                       └─────────────┬─────────────┘
+                                     │
+                                     ▼
+                       ┌───────────────────────────┐
+                       │    Incident Response      │
+                       │    & SOAR Automation      │
+                       │ TheHive • Tracecat • n8n  │
+                       └───────────────────────────┘
+```
 
-Let's make centralized security management more open, data-driven, and resilient.
+---
+
+## 🤝 How to Contribute
+
+Contributions are warmly welcome! Help make centralized security management accessible to everyone:
+
+1. 🍴 Fork the repository.
+2. 🌿 Create a new feature branch (`git checkout -b feature/add-new-tool`).
+3. 📝 Add your entry into `README.md` keeping alphabetical/star ranking integrity and factual descriptions.
+4. 🚀 Commit your changes (`git commit -m "Add ToolName to open-source SIEM list"`).
+5. 📤 Push to your branch (`git push origin feature/add-new-tool`).
+6. 🎯 Open a Pull Request!
+
+---
+
+## 💖 Support
+
+If you find this repository helpful for your security operations, detection engineering, or cloud research:
+
+- ⭐ **Star** this repository on GitHub to help others discover it.
+- 🍴 **Fork** and contribute back new tools and updates.
+- 📢 **Share** with fellow security engineers, SOC analysts, and DevOps teams.
+- ☕ **Buy me a coffee**: If you'd like to support continued maintenance and curation of open security resources, consider sponsoring via the [GitHub Sponsors Dashboard](https://github.com/sponsors/ishandutta2007).
+
+---
+
+## ⭐ Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Centralized-Security-Management&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Centralized-Security-Management&type=date&legend=top-left)
+
+---
+
+## ⚖️ Disclaimer
+
+- This is a **community-curated** list for informational and educational purposes — inclusion does not imply official endorsement.
+- Handling security telemetry, user credentials, and threat intelligence must comply with organizational governance and privacy regulations (GDPR, CCPA, HIPAA).
+- Self-hosted open-source security tools require ongoing patch management, secure credential handling, and network isolation.
