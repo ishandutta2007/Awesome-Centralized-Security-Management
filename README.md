@@ -33,77 +33,29 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 ## Table of Contents
 
+- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
 - [SaaS/Hosted Platforms](#saas-hosted-platforms)
-
 - [Open-Source GitHub Projects](#open-source-github-projects)
-
 - [How to Contribute](#how-to-contribute)
-
 - [Disclaimer](#disclaimer)
 
+## Sector Overview & Market Dynamics
 
+The global centralized security management and SIEM/SecOps market is estimated at approximately **$16.3 billion** in 2026, growing at a ~10.2% CAGR as organizations converge SIEM, XDR, and cloud posture management. The sector displays **moderate fragmentation transitioning toward platform concentration**, where enterprise hyperscalers and top platform vendors dominate unified telemetry ingestion while agile, specialized vendors compete heavily in cloud-native detection and posture niches.
 
 ## SaaS/Hosted Platforms
 
-
-
-- **[Salesforce Security Center](https://www.salesforce.com/)**  
-
-  Centralized security monitoring for Salesforce environments. Provides threat detection, anomaly alerts, and compliance posture management for CRM data.
-
-
-
-- **[Microsoft Defender XDR](https://www.microsoft.com/en-us/security/business/)**  
-
-  Unified extended detection and response across endpoints, identities, email, and cloud apps. Native integration with Microsoft Sentinel for SIEM capabilities.
-
-
-
-- **[Palo Alto Cortex XSIAM](https://www.paloaltonetworks.com/cortex)**  
-
-  AI-driven security operations platform converging SIEM, SOAR, ASM, and XDR. Designed to automate the entire SOC lifecycle.
-
-
-
-- **[Splunk Cloud](https://www.splunk.com/)**  
-
-  Enterprise SIEM and data analytics platform for security monitoring, threat detection, and compliance reporting at scale.
-
-
-
-- **[SentinelOne Singularity](https://www.sentinelone.com/)**  
-
-  Autonomous AI-powered endpoint protection and XDR platform with real-time threat detection and automated response.
-
-
-
-- **[CrowdStrike Falcon](https://www.crowdstrike.com/)**  
-
-  Cloud-native endpoint protection and threat intelligence platform with behavioral detection and managed hunting.
-
-
-
-- **[Datadog Cloud Security](https://www.datadoghq.com/)**  
-
-  Cloud security posture management and workload protection integrated with observability data.
-
-
-
-- **[Wiz](https://www.wiz.io/)**  
-
-  Agentless cloud security platform providing CSPM, CWPP, CIEM, and DSPM with graph-based risk analysis.
-
-
-
-- **[Orca Security](https://orca.security/)**  
-
-  Agentless cloud security platform with unified visibility across cloud estates and prioritized risk remediation.
-
-
-
-- **[IBM Security QRadar](https://www.ibm.com/security)**  
-
-  Enterprise SIEM with log management, network flow analysis, and security analytics for hybrid cloud environments.
+| Product | Description | Market Cap / Valuation | Starting Pricing | Free Tier / Free Trial Limits |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Microsoft Defender XDR](https://www.microsoft.com/en-us/security/business/)** | Unified extended detection and response across endpoints, identities, email, and cloud apps; natively pairs with Microsoft Sentinel. | ~$3.97 Trillion (Market Cap) | $3.00/user/month (Defender for Endpoint Plan 1) or $5.20/user/month (Plan 2); full suite via E5 Security add-on at $12.00/user/month | 30-day free trial (up to 25 licenses via Microsoft 365 E5 trial / Defender for Cloud 30-day evaluation) |
+| **[Palo Alto Cortex XSIAM](https://www.paloaltonetworks.com/cortex)** | AI-driven security operations platform converging SIEM, SOAR, ASM, and XDR to automate the SOC lifecycle. | ~$342.56 Billion (Market Cap) | £114.75/endpoint/year (~$145/yr) or £9.50/user/month (G-Cloud listing; 200-workload/seat minimum commitment) | 30-day evaluation trial (includes dedicated XQL API & Cold Storage query quota) or guided enterprise PoC |
+| **[CrowdStrike Falcon](https://www.crowdstrike.com/)** | Cloud-native endpoint protection and threat intelligence platform with behavioral detection and managed hunting. | ~$281.62 Billion (Market Cap) | $59.99/device/year (~$5.00/device/month, Falcon Go tier; billed annually, up to 100 devices) | 15-day free trial (Falcon Prevent NGAV & Device Control on live endpoints; no credit card required) or 30-day virtual Test Drive lab |
+| **[IBM Security QRadar](https://www.ibm.com/security)** | Enterprise SIEM with log management, network flow analysis, and security analytics for hybrid cloud environments. | ~$213.98 Billion (Market Cap) | $12,074.40/year (~$1,006.20/month base on AWS Marketplace for 500 EPS & 10,000 FPM) | Community Edition free for non-commercial use with renewable 3-month license (capped at 50 EPS & 5,000 FPM) |
+| **[Salesforce Security Center](https://www.salesforce.com/)** | Centralized security monitoring, threat detection, anomaly alerts, and compliance posture management for CRM data. | ~$188.57 Billion (Market Cap) | Free (Security Center Essentials basic dashboard) / Paid enterprise multi-org add-on via Salesforce AE | Free permanent tier via Salesforce Security Center Essentials (single-org basic health & login metrics) and free Salesforce Developer Edition orgs |
+| **[Datadog Cloud Security](https://www.datadoghq.com/)** | Cloud security posture management, SIEM, and workload protection integrated with unified observability telemetry. | ~$105.30 Billion (Market Cap) | $10.00/host/month (Cloud Security Management Pro, annual billing; requires base Pro Infrastructure at $15/host/month) | 14-day free trial (full platform capabilities including Infrastructure and Cloud Security modules; unlimited test hosts) |
+| **[Wiz](https://www.wiz.io/)** | Agentless cloud security platform providing CSPM, CWPP, CIEM, and DSPM with graph-based risk analysis. | ~$12.00 Billion (Valuation) | $24,000/year (~$2,000/month for Wiz Essential base bundle covering 100 cloud workloads) | 14-day free trial / guided proof-of-concept (agentless scanning across connected AWS/Azure/GCP environments) |
+| **[SentinelOne Singularity](https://www.sentinelone.com/)** | Autonomous AI-powered endpoint protection and XDR platform with real-time threat detection and automated response. | ~$9.10 Billion (Market Cap) | $69.99/endpoint/year (~$5.83/endpoint/month, Singularity Core tier; billed annually) | 30-day proof-of-concept evaluation trial (arranged via authorized partner/sales; includes full EPP/EDR features & 30-day data retention) |
+| **[Orca Security](https://orca.security/)** | Agentless cloud security platform with unified visibility across cloud estates and prioritized risk remediation. | ~$1.80 Billion (Valuation) | $7,000/month (~$84,000/year starter pack on AWS Marketplace for up to 500 cloud assets) | 30-day free trial (via AWS Marketplace Risk Assessment; full agentless SideScanning across cloud accounts) |
 
 
 
